@@ -1,0 +1,29 @@
+/* This style is only for the light and dark mode in the contact component */
+
+#light{
+    background-color: #fff;
+   
+}
+#dark{
+    background-color: #222;
+    /* color: #fff; */
+}
+#dark .btn:hover{
+    color: #fff;
+}
+#dark .language p{
+        border: 1px solid #fff;
+        color: #eee;
+    
+}
+#dark .image-work img{
+    box-shadow: 2px 2px 20px rgba(255,255,255,0.2);
+}
+#dark .fa-github, .fa-solid{
+    color: #9796f0;
+}
+#dark .footer{
+    background: linear-gradient(to left,#acb6e5,#86fde8);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}

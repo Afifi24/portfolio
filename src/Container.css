@@ -1,0 +1,29 @@
+/* this style is used only for the light and dark */
+
+#light{
+    background-color: #fff;
+   color: #000;
+}
+#dark{
+    background-color: #222;
+    color: #fff;
+}
+#light .head h1::first-letter{
+    color: #000;
+}
+#dark .footer{
+    background: linear-gradient(to left,#acb6e5,#86fde8);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+#dark .about h2{
+    background: linear-gradient(to left,#acb6e5,#86fde8);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+  }
+  #light .languages p{
+    border: none;
+    color: #000;
+    background-color: lightgray;
+    border-radius: 5px;
+  }
